@@ -80,9 +80,9 @@ class SettingsScreenActivity : BaseActivity() {
                         storeLocation = storeListName[position]
                         var arrayPosition = position - 1
                         (context as SettingsScreenActivity).onStoreSelectedEvent(arrayPosition)
-                        var objModelManager = AeropayModelManager().getInstance()
+                       /* var objModelManager = AeropayModelManager().getInstance()
                         objModelManager.createSyncPayload.payloadList.clear()
-                        objModelManager.subscriptionPayloadForList.payloadList.clear()
+                        objModelManager.subscriptionPayloadForList.payloadList.clear()*/
                     }
                 }
                 override fun onNothingSelected(parent: AdapterView<*>) {
