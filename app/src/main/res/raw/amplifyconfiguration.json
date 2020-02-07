@@ -1,0 +1,17 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "AeroAppSyncStage": {
+                    "endpointType": "GraphQL",
+                    "endpoint": "https://thefun2ofvak5khtsvnf5kluwe.appsync-api.us-east-1.amazonaws.com/graphql",
+                    "region": "us-east-1",
+                    "authorizationType": "API_KEY",
+                    "apiKey": "da2-v4m773uxarhj3oqpxwwcqvx2b4"
+                }
+            }
+        }
+    }
+}
